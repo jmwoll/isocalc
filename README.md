@@ -1,5 +1,7 @@
 With isocalc, isotopic patterns can be calculated
-from python:
+from python. It is not accurate (e.g. not considering electrons),
+and very inefficient, but still sometimes useful for quickly screening
+isotopic patterns and for teaching. For example, the code
 ```
 from isocalc import isocalc
 isocalc.plot_isotope_distribution("C1")
